@@ -116,6 +116,7 @@ using:
 ``` r
 # install.packages("devtools")
 devtools::install_github("dynverse/dynbenchmark/package")
+devtools::install_github("pablommesas/dynbenchmark", ref = "devel", subdir = "package")
 ```
 
 This will install several other “dynverse” packages. Depending on the
